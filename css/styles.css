@@ -383,3 +383,28 @@ body {
     height: 16rem;
     margin-bottom: 35px;
 }
+
+footer {
+    margin-top: 100px;
+    background: linear-gradient(to right,#b2a8ff,#7f6cff);
+    border-radius: 50% 50% 0 0 / 36px 36px 0 0;
+    padding: 43px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer h2 {
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+footer nav {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 60px;
+}
+footer a {
+    color: var(--font-color-primary);
+    text-decoration: none;
+}
+
