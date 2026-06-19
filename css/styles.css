@@ -293,7 +293,7 @@ body {
 }
 
 .avis {
-    margin: 180px 50px 0 50px;
+    margin: 180px 50px 80px 50px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 35px;
@@ -330,4 +330,56 @@ body {
     font-style: italic;
     font-size: 0.8rem;
     line-height: 1.5;
+}
+
+.formulaire {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.formulaire form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+.formulaire label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.formulaire input{
+    background: var(--background-color-input);
+    border-radius: 18px;
+    border: none;
+    padding: 1rem 9rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--font-color-primary);
+    margin-bottom: 10px;
+}
+.formulaire select {
+    background: var(--background-color-input);
+    border-radius: 18px;
+    border: none;
+    padding: 1rem 10rem;
+    font-size: 1.2rem;
+    text-align: start;
+    color: var(--font-color-primary);
+    margin-bottom: 10px;
+}
+.formulaire textarea {
+    background: var(--background-color-input);
+    border-radius: 18px;
+    border: none;
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    text-align: start;
+    color: var(--font-color-primary);
+    width: 33rem;
+    height: 16rem;
+    margin-bottom: 35px;
 }
