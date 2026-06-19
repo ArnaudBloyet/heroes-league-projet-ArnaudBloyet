@@ -75,7 +75,7 @@ body {
 }
 .services__ligne {
     width: 12px;
-    height: 1px;
+    height: 3px;
     background: var(--font-color-secondary);
 }
 .services__article {
@@ -137,4 +137,197 @@ body {
     font-style: italic;
     font-size: 0.9rem;
     margin: 0 10px 20px 10px;
+}
+
+.heros__cards {
+    margin: 5rem 2rem 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.heros__cards__card1 {
+    background-image: url(../ressources/images/catastrophic.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    position: relative;
+}
+.heros__cards__card2 {
+    background-image: url(../ressources/images/carotte-woman.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    position: relative;
+}
+.heros__cards__card3 {
+    background-image: url(../ressources/images/ultraquenarde.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    position: relative;
+}
+.heros__cards__card4 {
+    background-image: url(../ressources/images/poulpy.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    position: relative;
+}
+.heros__cards__card5 {
+    background-image: url(../ressources/images/oran-wu-tang-clan.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    position: relative;
+}
+.heros__cards__card6 {
+    background-image: url(../ressources/images/superime.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    position: relative;
+}
+
+.heros__cards__card1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(transparent 40%,rgba(0,0,0,.8));
+}
+.heros__cards__card2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(transparent 40%,rgba(0,0,0,.8));
+}
+.heros__cards__card3::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(transparent 40%,rgba(0,0,0,.8));
+}
+.heros__cards__card4::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(transparent 40%,rgba(0,0,0,.8));
+}
+.heros__cards__card5::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(transparent 40%,rgba(0,0,0,.8));
+}
+.heros__cards__card6::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(transparent 40%,rgba(0,0,0,.8));
+}
+
+.heros__cards__contenu {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+}
+.heros__cards__contenu-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+.heros__cards__contenu-desc {
+    font-size: 0.9rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button__form {
+    padding: 10px;
+    background-color: var(--font-color-secondary);
+    color: var(--font-color-primary);
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.avis {
+    margin: 180px 50px 0 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 35px;
+}
+.avis__card {
+    background-color: var(--font-color-secondary);
+    border-radius: 25px;
+    padding: 30px 20px;
+    text-align: center;
+    position: relative;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 190px;
+}
+.avis__card img {
+    width: 213px;
+    height: 213px;
+    border-radius: 50%;
+    border: 8px solid #aba0ff;
+    object-fit: cover;
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 20px;
+}
+.avis__card h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.avis__card p {
+    font-style: italic;
+    font-size: 0.8rem;
+    line-height: 1.5;
 }
