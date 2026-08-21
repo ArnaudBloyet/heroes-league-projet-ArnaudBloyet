@@ -1,63 +1,74 @@
-# Heros League a besoin de toi !
+# Heroes League
 
-**Heros League&trade;** est une société de mise à disposition de **super-héros** pour des situations d'urgence en tout genre. Nous avons besoin de toi pour créer un site web qui permettra de présenter nos différents services et de pouvoir lancer un appel à l'aide.
+Heroes League est un site vitrine réalisé pour présenter une agence fictive spécialisée dans la mise à disposition de super-héros pour différentes situations d'urgence.
 
-Pour l'instant ce n'est qu'**une page d'accueil**, mais on te recontactera rapidement pour **ajouter de nouvelles fonctionnalités.**
+Le projet met l'accent sur une interface moderne, immersive et responsive, avec une présentation visuelle des différents héros et plusieurs interactions au survol.
 
-**Prêt à servir la League ?** :muscle: :rocket:
+## Fonctionnalités
 
-Tu trouveras dans les **ressources** tout ce dont tu as besoin pour réaliser ce projet.
+* Page d'accueil responsive
+* Navigation par ancres vers les différentes sections
+* Présentation des héros disponibles
+* Effets de survol sur les cartes des héros
+* Navigation adaptée aux différentes tailles d'écran
+* Mise en page responsive pour ordinateur, tablette et mobile
+* Effets d'interaction sur les éléments de navigation et les boutons
+* Utilisation d'une police personnalisée
 
-## Consignes
+## Technologies utilisées
 
-- La police d'écriture est celle-ci : [Satoshi](https://www.fontshare.com/?q=Satoshi)
-  - Le designer nous a dit qu'il y avait pas mal de graisses différentes à prendre
-- Pour les couleurs, on ne les a plus sous la main, mais on imagine que tu trouveras un moyen de les récupérer :wink:
-- N'hésite pas à prendre la maquette de la home et la glisser / déposer dans ton navigateur pour la voir comme si c'était le site web (appuie sur la maquette dans le navigateur pour la zoomer à la largeur de l'écran)
-- Les liens du menus doivent être des ancres qui pointent vers la section correspondante
-- La première section avec la grande image doit prendre tout l'espace disponible dans la hauteur de l'écran (et ne pas dépasser !)
-- Au survol d'un héros, un texte supplémentaire doit apparaître par dessus l'image (voir maquette). Petit détail, le texte doit apparaître par le haut de l'image
-- Il y a un bouton pour voir plus de héros mais pour le moment il n'y a pas de page de prévue par le designer, donc renseigne "#" en lien, on verra plus tard !
-- Sinon tu es libre de faire comme tu veux, tant que ça ressemble à la maquette ! :smile:
+* **HTML5** — structure et contenu de la page
+* **CSS3** — mise en page, responsive design et animations
+* **JavaScript** — interactions côté client
+* **CSS Flexbox / Grid** — organisation des éléments
+* **Media Queries** — adaptation aux différentes tailles d'écran
 
-## Maquette globale
+## Structure du projet
 
-![Home](./ressources/home.png)
+```text
+heroes-league/
+├── css/
+│   ├── reset.css
+│   └── styles.css
+├── html/
+│   └── index.html
+├── resources/
+└── readme.md
+```
 
-### Header
+## Responsive Design
 
-Le menu doit passer par dessus le contenu au scroll.
+L'interface a été conçue pour s'adapter à différents formats d'écran :
 
-![Header](./ressources/header.png)
+* 💻 Ordinateur
+* 📱 Tablette
+* 📱 Mobile
 
-## Hovers
+Les différents éléments de la page s'adaptent automatiquement afin de conserver une navigation et une présentation cohérentes sur chaque appareil.
 
-### Menu
+## Interactions
 
-![Menu](./ressources/menu-hover.png)
+Le projet intègre plusieurs interactions visuelles :
 
-### Héros
+* effets de survol sur les éléments de navigation ;
+* animations sur les cartes des héros ;
+* affichage d'informations complémentaires au survol ;
+* effets visuels sur les boutons ;
+* gestion des états de focus des champs.
 
-![Héros](./ressources/hover-hero.png)
+## Objectifs techniques
 
-### Bouton
+Ce projet permet notamment de mettre en pratique :
 
-![Bouton](./ressources/button-hover.png)
+* la création d'une interface web à partir d'une conception visuelle ;
+* l'organisation d'une page en différentes sections ;
+* la création d'une navigation par ancres ;
+* la maîtrise de Flexbox et CSS Grid ;
+* la création d'interactions avec les pseudo-classes CSS ;
+* la conception responsive ;
+* la gestion des différents états d'une interface ;
+* l'intégration d'éléments graphiques et typographiques.
 
-### Footer menu 
+## Auteur
 
-![Footer menu](./ressources/footer-menu-hover.png)
-
-## Input Focus Outline
-
-![Input Focus Outline](./ressources/input-focus.png)
-
-## Responsive
-
-### Tablette
-
-![Tablette](./ressources/home-tablet.png)
-
-### Mobile
-
-![Mobile](./ressources/home-phone.png)
+**Arnaud Bloyet**
